@@ -1,0 +1,182 @@
+/* style.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login page */
+#login-container {
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#login-container h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+#login-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+#login-container input[type="text"],
+#login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#login-container button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#login-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Habit Tracker */
+#habit-container {
+  max-width: 800px;
+  width: 90%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#habit-container h1 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+#habit-container #habits-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#habit-container #habits-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+#habit-container #habits-list li:hover {
+  background-color: #e0e0e0;
+}
+
+#habit-container #add-habit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#habit-container #add-habit-btn:hover {
+  background-color: #0056b3;
+}
+
+#habit-container #add-habit-form {
+  display: none;
+}
+
+#habit-container #add-habit-form h2 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+#habit-container #new-habit-form label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+#habit-container #new-habit-form input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#habit-container #new-habit-form button[type="submit"] {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#habit-container #new-habit-form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Habit Details */
+#habit-details-container {
+  max-width: 800px;
+  width: 90%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#habit-details-container h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+#habit-details-container select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#habit-details-container #previous-status-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#habit-details-container #previous-status-list li {
+  margin-bottom: 5px;
+}
+
+#habit-details-container #save-status-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#habit-details-container #save-status-btn:hover {
+  background-color: #c82333;
+}

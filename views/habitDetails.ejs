@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Details</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+  <h2>Habit Details</h2>
+  <h3 id="habit-name"></h3>
+  <div>
+    <h4>Today's Status</h4>
+    <select id="today-status">
+      <option value="done">Done</option>
+      <option value="not-done">Not Done</option>
+      <option value="none">None</option>
+    </select>
+  </div>
+  <div>
+    <h4>Previous 6 Days</h4>
+    <ul id="previous-status-list">
+      <!-- Render previous status items dynamically -->
+    </ul>
+  </div>
+  <button id="save-status-btn">Save</button>
+  <a href="/">Go Back</a>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

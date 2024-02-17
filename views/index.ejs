@@ -1,0 +1,29 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+  <h1>Habit Tracker</h1>
+  <div id="habits-container"></div>
+  <button id="add-habit-btn">Add Habit</button>
+
+  <!-- New habit form -->
+  <div id="add-habit-form" style="display: none;">
+    <h2>Add New Habit</h2>
+    <form id="new-habit-form">
+      <div>
+        <label for="habit-name">Habit Name:</label>
+        <input type="text" id="habit-name" name="habitName" required>
+      </div>
+      <button type="submit">Add</button>
+    </form>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
